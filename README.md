@@ -31,3 +31,11 @@ Storage: Any SSD or SATA HDD with at least 10GiB free space
 GPU: Intel Nehalem (gen 1) or above iGPU. Recommended: Ivy Bridge (gen 3) or above
      AMD Graphics Core Next or above GPU
      Nvidia Maxwell or above GPU
+
+How to install?
+1) Clone the repo or download as zip.
+2) Create an Arch Linux live USB.
+3) If you used dd to create the Arch Linux live USB, then copy the installer to another USB drive. Otherwise, you can copy the installer to the Arch Linux live USB.
+4) Create 2 partitions on your computer's HDD or SSD: one for the ESP (at least 256MiB) and one for the root partition. If you choose to format them, you should label them "BOOT" and "arch" respectively. Otherwise they can be formatted later if you wish. You can also add partitions for /home, /media and /public if you want (again, if you're formatting them now label them "home", "media" and "public" respectively).
+5) Edit the options file. Specify what partitions you're using, and if you'd like to format them. Specify a username for the non-root account, and the computer's hostname. If you have a HiDPI display, set that too.
+6) Boot the Arch Linux live USB and run liveusb-installer.sh
