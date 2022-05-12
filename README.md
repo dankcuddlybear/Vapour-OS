@@ -1,4 +1,6 @@
 # Vapour-OS
+This is my own personal Linux distro, for me and my family. I do not recommend that anyone else uses it as it is still a work in progress. Any pull requests/etc will be ignored. You have been warned.
+
 What is Vapour OS?
 Vapour OS is an Arch Linux based distro. It aims to be flexible, optimised for performance and security, used for a variety of purposes and with no extra junk. At its core, Vapour OS is a basic Arch Linux system with all the core packages, plus commonly used command line utilities and performance enhancements. I've also included features from other distros like Ubuntu, Steam OS and Android. Arch Linux follows a rolling release model, so you will always get the latest software updates, but Vapour OS additionally ships with it's own updater to install and configure new features.
 
