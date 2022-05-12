@@ -1,0 +1,13 @@
+pkgname=vapour-os-multimedia
+pkgver=0.1
+pkgrel=1
+pkgdesc='Vapour OS audio/video codecs'
+arch=(any)
+url='https://github.com/dankcuddlybear/Vapour-OS'
+depends=('gst-plugins-bad'
+    'gst-plugins-base'
+    'gst-plugins-good'
+    'gst-plugins-ugly'
+    'libdvdcss'
+    'libtiger'
+)

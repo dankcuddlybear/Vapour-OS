@@ -1,0 +1,7 @@
+pkgname=vapour-os-intel
+pkgver=0.1
+pkgrel=1
+pkgdesc='Vapour OS enhancements for Intel CPUs'
+arch=(any)
+url='https://github.com/dankcuddlybear/Vapour-OS'
+depends=('intel-ucode')
